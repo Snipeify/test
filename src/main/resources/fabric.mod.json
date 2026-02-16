@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "smoothrots",
+  "version": "${version}",
+  "name": "Smooth Rots",
+  "description": "Strict and smooth camera rotation controls with Mod Menu config.",
+  "authors": [
+    "sound"
+  ],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.sound.smoothrots.client.SmoothRotsClient"
+    ],
+    "modmenu": [
+      "org.sound.smoothrots.client.SmoothRotsModMenu"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "fabric": "*",
+    "minecraft": "~1.21.4",
+    "java": ">=21"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://fabricmc.net"
+      }
+    }
+  }
+}
