@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "cartassist",
+  "version": "${version}",
+  "name": "CartAssist",
+  "description": "Predicts bow landing spots and places a rail + TNT minecart.",
+  "authors": [
+    "optimizer"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.optimizer.cartassist.client.CartAssistClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "fabric-api": "*"
+  }
+}
