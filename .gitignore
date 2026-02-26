@@ -1,0 +1,9 @@
+.gradle/
+build/
+out/
+*.iml
+.idea/
+
+# gradle wrapper lock/temp
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
